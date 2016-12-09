@@ -17,6 +17,7 @@ script:
     - golint ./...
     - make updatedeps
     - make test
+    - make dist
 
 matix:
     fast_finish: true
